@@ -3,10 +3,6 @@
   margin: 0;
 }
 
-body {
-    width: 100vw;
-}
-
 @media (max-width: 320px) {
   .header-title {
     flex-direction: column;
@@ -844,6 +840,12 @@ body {
   background-color: rgba(0, 0, 0, 0.841);
   border-top: 2px solid #d6d6d6;
 }
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 
 .main-footer {
   display: flex;
